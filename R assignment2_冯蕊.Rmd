@@ -125,7 +125,7 @@ injury_severity
 ```
 
 ## 3. Merge the accident dataset with the vehicle dataset, and report the dimension of your results and number of missing values in one variable of the right dataset.
-```{r Warning=FALSE, message=FALSE}
+```{r warning=FALSE, message=FALSE}
 library(naniar)
 # Merge ACCIDENT with the VEHICLE
 merge <- left_join(
@@ -137,12 +137,26 @@ merge <- left_join(
 merge |> miss_var_summary()
 ```
 
+
 # Task3: Push your homework to a git repository
 ## Provide a link to your repository
+### Assignment1
+Assignment1: https://github.com/Rheaaaaaa/R-assignment1
+
+### Assignment2
+Assignment2: https://github.com/Rheaaaaaa/R-assignment2
 
 ## Provide a screenshot of your repository
+### Assignment1
+![](git_assignment1.png)
+
+### Assignment2
+![](git_assignment2.png)
+
 
 # Task4: 关于本课程的建议
 ## 本课程的内容
+我认为r语言对于我自己来说还是有一定难度的，如果能在课堂上有更多的时间动手实操，可能会对我的理解有一些帮助。但老师的ppt非常详细，在课后我对照ppt并在网络的帮助下，还是能够比较顺利地完成这次作业。
 
 ## 编程语言与编程工具
+在课后自学markdown的时候我觉得它很有趣也很方便，如果老师能在课堂上讲述一些rmd相关内容的话，可能对我们理解和应用r语言有所帮助。
