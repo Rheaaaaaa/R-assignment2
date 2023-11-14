@@ -8,7 +8,7 @@ R assignment2
 
 Rmarkdown文件： R assignment2_冯蕊.Rmd 
 
-R文件：R assignment2_冯蕊 
+R文件：R assignment2_冯蕊.R 
 
 Project文件： R assignment2.Rproj 
  
